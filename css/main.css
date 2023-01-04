@@ -1,0 +1,199 @@
+/*specification*/
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	color: #304041;
+	letter-spacing: 0.05em;
+}
+* {
+	box-sizing: border-box;
+}
+ul, li {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+
+}
+h2 {
+	text-align: center;
+}
+p {
+	line-height: 1.43em;
+	margin: 0 0 26px;
+}
+a {
+	text-decoration: none;
+}
+section {
+	padding-top: 144px;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.container_full-height {
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+/*first section*/
+.header {
+	background: linear-gradient(180deg, #A09CD3 0%, rgba(255, 255, 255, 0) 100%), url('../img/london1.jpg') no-repeat center top/cover;
+	text-align: center;
+	color: #fff;
+	padding: 80px 0 90px; 
+}
+.offer__btn {
+	background: #5F51FF;
+	padding: 18px 0px;
+	border-radius: 119px;
+	color: #fff;
+	font-size: 16px;
+	display: block;
+	width: 247px;
+	transition: all 0.5s ease;
+	text-align: center;
+	margin: 0 auto;
+}
+.offer__btn:hover {
+	background: #231E62;
+}
+.section-title {
+	font-size: 30px;
+	margin-bottom: 95px;
+}
+}
+.logo {
+	display: block;
+}
+.offer {
+	margin-top:201px;
+}
+.offer__title-small {
+	display: inline;
+	color: #304041;
+	background: #fff;
+	border-radius: 70px;
+	padding: 8px 17px;
+}
+.offer__title {
+	letter-spacing: 0.145em;
+	font-size: 60px;
+	margin: 24px 0px;
+}
+.offer__text {
+	font-size: 20px;
+	margin-bottom: 24px;
+}
+.arrow-down {
+	background: url('../img/arrow-down.svg');
+	width: 18px;
+	height: 27px;
+	display: block;
+	margin:217px auto 0;
+	transition: all 0.5s ease;
+}
+.arrow-down:hover {
+	background: url('../img/arrow-down2.svg');
+}
+/*section routs*/
+
+.story-content {
+	background:#DEDBFF url('../img/london2.jpg') no-repeat right/40%;
+	background-size: auto 649px;
+	height: 649px;
+	text-align: start;
+	padding: 112px 521px 0 73px;
+	max-width: 100%;
+
+}
+.story-content__rout {
+	color: #789AA0;
+	font-weight: 500;
+	margin-bottom: 20px;
+
+}
+.story-content__title {
+	margin-bottom: 40px;
+	font-size: 24px;
+}
+
+.story-content__arrow-next {
+	display: block;
+	margin: 48px auto 113px;
+	opacity: 0.7;
+}
+.story-content__arrow-next:hover {
+	opacity:1; 
+}
+.story-content-btn__btn {
+	display: block;
+	font-weight: 800;
+	margin: 0 auto;
+	border: 1px solid #5F51FF;
+	border-radius: 94px;
+	padding: 18px 0px;
+	width: 332px;
+	color: #5F51FF;
+	text-align: center;
+}
+.story-content-btn {
+	margin-top: 90px;
+}
+
+/*section history*/
+
+
+.history-content {
+	background: url('../img/london3.jpg') no-repeat right top/ 40%;
+	background-size: auto 626px;
+	height: 626px;
+}
+
+.history-content__item {
+	font-size: 16px;
+	width: 407px;
+	position: relative;
+	padding-top: 22px;
+	line-height: 20px;
+	margin-bottom: 83px;
+}
+.history-content__item:last-child {
+	margin-bottom: 0;
+}
+.history-content__item:before {
+	content: '';
+	display: block;
+	width: 65px;
+	height: 7px;
+	background: #5F51FF;
+	border-radius: 23px;
+	position: absolute;
+	top: 0;
+}
+/*footer*/
+.footer {
+	padding:147px 0;
+}
+.footer-content {
+	display: flex;
+}
+.footer__text {
+	font-size: 14px;
+	color: #5C7677;
+	margin-right: 60px;
+	font-size: 14px;
+	line-height: 17px;
+}
