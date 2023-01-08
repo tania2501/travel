@@ -74,7 +74,7 @@ section {
 	font-size: 30px;
 	margin-bottom: 95px;
 }
-}
+
 .logo {
 	display: block;
 }
@@ -92,6 +92,7 @@ section {
 	letter-spacing: 0.145em;
 	font-size: 60px;
 	margin: 24px 0px;
+  color:maroon;
 }
 .offer__text {
 	font-size: 20px;
